@@ -1,5 +1,5 @@
 .oblasti-prava-section {
-	height: 2200px;
+	height: 1530px;
 	padding: 40px;
 }
 
@@ -31,7 +31,7 @@
 .oblasti-prava-about {
 	position: relative;
 
-	width: 1170px;
+	width: 1338px;
 	margin: auto;
 
 	display: flex;
@@ -49,9 +49,8 @@
 }
 
 .oblasti-prava-about-info-title {
-	font-family: Cormorant;
+	font-family: Cormorant, sans-serif;
 	font-size: 48px;
-	line-height: 48px;
 }
 
 .oblasti-prava-about-info-sub-title {
@@ -59,7 +58,7 @@
 	padding-bottom: 20px;
 	border-bottom: 1px solid #23262924;
 
-	font-family: Cormorant;
+	font-family: Cormorant, sans-serif;
 	font-size: 18px;
 }
 
@@ -73,8 +72,8 @@
 
 .oblasti-prava-about-info-logo {
 	position: absolute;
-	top: -20px;
-	right: -168px;
+	top: -30px;
+	right: 0px;
 }
 
 .oblasti-prava-about-info-signature {

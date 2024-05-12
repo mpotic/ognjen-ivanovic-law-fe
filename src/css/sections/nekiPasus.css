@@ -1,0 +1,48 @@
+.neki-pasus-section {
+	height: 700px;
+	background-image: url("../../../static/images/gray-banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+}
+
+.neki-pasus-prefix {
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 4px;
+	color: white;
+}
+
+.neki-passus-line {
+	width: 0px;
+	height: 50px;
+	border-radius: 2px;
+	border: 1px solid white;
+
+	color: white;
+}
+
+.neki-pasus-title {
+	color: white;
+	font-family: Cormorant, sans-serif;
+	font-size: 48px;
+}
+
+.neki-pasus-text {
+	padding-bottom: 40px;
+
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+}
+
+.neki-pasus-button {
+	padding: 20px 55px;
+	font-size: 22px;
+}
