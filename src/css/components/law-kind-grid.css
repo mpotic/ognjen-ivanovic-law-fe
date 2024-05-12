@@ -25,6 +25,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+
+	transition: background-color 300ms, color 300ms ease;
 }
 
 .law-kind-grid-element img {
@@ -37,12 +39,16 @@
 	font-size: 24px;
 	font-weight: 600;
 	font-family: "Cormorant";
+
+	transition: color 300ms ease;
 }
 
 .law-kind-grid-element p {
 	font-size: 13px;
 	font-family: "Montserrat";
 	line-height: 30px;
+
+	transition: color 300ms ease;
 }
 
 /* Hover states. */
@@ -56,12 +62,8 @@
 .law-kind-grid-element:hover > h3,
 .law-kind-grid-element:hover > p {
 	color: white;
-
-	transition: color 300ms ease;
 }
 
 .law-kind-grid-element:hover {
 	background-color: var(--green-color);
-
-	transition: background-color 300ms, color 300ms ease;
 }
