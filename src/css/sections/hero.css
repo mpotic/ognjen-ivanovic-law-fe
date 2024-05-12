@@ -1,0 +1,49 @@
+.hero-section {
+	height: 600px;
+	width: 100vw;
+
+	background-image: url("../../../static/images/justice-scales.png");
+}
+
+.hero-container {
+	padding-left: 250px;
+	padding-top: 135px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.hero-title {
+	font-size: 72px;
+	font-weight: 500;
+	color: white;
+}
+
+.hero-sub-title {
+	font-size: 26px;
+	font-weight: 500;
+	color: white;
+}
+
+.hero-buttons {
+	position: relative;
+	width: fit-content;
+	padding-top: 30px;
+
+	display: flex;
+	gap: 20px;
+}
+
+.hero-signature {
+	position: absolute;
+	bottom: -80px;
+	right: -120px;
+
+	width: 154px;
+	height: 87px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../../../static/images/signature.svg");
+}

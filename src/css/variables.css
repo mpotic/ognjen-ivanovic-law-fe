@@ -1,0 +1,11 @@
+:root {
+	--black-button-color: #272b2e;
+	--green-button-color: #165153;
+	--green-color: #165153;
+	--beige-button-color: #805c3b;
+
+	--navbar-pocetna-color: #b14233;
+	--text-color: #272b2e;
+
+	--font-family: var(--font-family);
+}

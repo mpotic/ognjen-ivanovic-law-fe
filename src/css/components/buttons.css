@@ -1,0 +1,40 @@
+.green-button,
+.beige-button,
+.black-button {
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	border-radius: 0;
+	border: 0px;
+
+	background-color: var(--green-button-color);
+	color: white;
+
+	display: flex;
+	align-items: center;
+
+	font-size: 16px;
+	font-family: "Cormorant", serif;
+	font-weight: 700;
+}
+
+.beige-button {
+	background-color: var(--beige-button-color);
+	color: white;
+}
+
+.black-button {
+	background-color: var(--black-button-color);
+	color: white;
+}
+
+.green-button:hover,
+.beige-button:hover,
+.black-button:hover {
+	cursor: pointer;
+	filter: contrast(150%);
+
+	transition: filter 0.3s ease;
+}

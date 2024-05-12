@@ -1,0 +1,30 @@
+.oblasti-prava-section {
+	height: 2200px;
+	width: 100vw;
+	padding: 40px;
+}
+
+.oblasti-prava-titles {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 40px;
+}
+
+.oblasti-prava-small-title {
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 4px;
+}
+
+.oblasti-prava-big-title {
+	font-size: 48px;
+}
+
+.oblasti-prava-line {
+	width: 0px;
+	height: 50px;
+	border-radius: 2px;
+	border: 1px solid var(--green-color);
+}

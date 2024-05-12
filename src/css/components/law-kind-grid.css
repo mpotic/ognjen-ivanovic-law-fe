@@ -1,0 +1,53 @@
+.law-kind-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.law-kind-grid {
+	width: 1170px;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto auto;
+	column-gap: 30px;
+	row-gap: 30px;
+}
+
+.law-kind-grid-element {
+	box-sizing: border-box;
+	width: 270px;
+	height: 270px;
+	padding: 20px;
+	border: 1px solid #f6f6f6;
+}
+
+.law-kind-grid-element img {
+	width: 50px;
+	height: 50px;
+}
+
+.law-kind-grid-element h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.law-kind-grid-element p {
+	font-size: 14px;
+}
+
+/* Hover states. */
+
+.law-kind-grid-element:hover > img {
+	filter: grayscale(100%) brightness(400%);
+
+	transition: filter 400ms ease;
+}
+
+.law-kind-grid-element:hover {
+	color: white;
+	background-color: var(--green-color);
+
+	transition: background-color 300ms, color 300ms ease;
+}
