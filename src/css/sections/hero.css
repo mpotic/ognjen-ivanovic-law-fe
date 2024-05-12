@@ -2,6 +2,8 @@
 	height: 600px;
 	width: 100vw;
 
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-image: url("../../../static/images/justice-scales.png");
 }
 

@@ -9,8 +9,8 @@
 	width: 1170px;
 
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: auto auto;
+	grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+	grid-template-rows: auto auto; /* 2 rows */
 	column-gap: 30px;
 	row-gap: 30px;
 }
@@ -19,22 +19,30 @@
 	box-sizing: border-box;
 	width: 270px;
 	height: 270px;
-	padding: 20px;
+	padding: 30px;
 	border: 1px solid #f6f6f6;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .law-kind-grid-element img {
 	width: 50px;
 	height: 50px;
+	padding-bottom: 20px;
 }
 
 .law-kind-grid-element h3 {
 	font-size: 24px;
 	font-weight: 600;
+	font-family: "Cormorant";
 }
 
 .law-kind-grid-element p {
-	font-size: 14px;
+	font-size: 13px;
+	font-family: "Montserrat";
+	line-height: 30px;
 }
 
 /* Hover states. */
@@ -45,8 +53,14 @@
 	transition: filter 400ms ease;
 }
 
-.law-kind-grid-element:hover {
+.law-kind-grid-element:hover > h3,
+.law-kind-grid-element:hover > p {
 	color: white;
+
+	transition: color 300ms ease;
+}
+
+.law-kind-grid-element:hover {
 	background-color: var(--green-color);
 
 	transition: background-color 300ms, color 300ms ease;
