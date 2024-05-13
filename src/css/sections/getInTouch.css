@@ -1,0 +1,177 @@
+.get-in-touch-section {
+	height: 700px;
+	background-image: url("../../../static/images/green-banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.get-in-touch-container-div {
+	width: 1170px;
+	height: 450px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+}
+
+.get-in-touch-info-div {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: stretch;
+	gap: 10px;
+}
+
+.get-in-touch-sub-title-h4 {
+	font-family: Cormorant, sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+}
+
+.get-in-touch-title-h1 {
+	font-family: Cormorant, sans-serif;
+	font-size: 48px;
+	color: white;
+}
+
+.get-in-touch-green-word-span {
+	color: #5ea4a7;
+}
+
+.get-in-touch-text-p {
+	font-family: "Montserrat", sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.get-in-touch-line-div {
+	width: 500px;
+	border: 1px solid rgba(255, 255, 255, 0.07);
+	margin-top: 30px;
+}
+
+.get-in-touch-phone-text-p {
+	padding-top: 40px;
+
+	font-family: Cormorant, sans-serif;
+	font-size: 36px;
+	color: white;
+}
+
+.get-in-touch-phone-p {
+	font-family: Cormorant, sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 82px;
+}
+
+.get-in-touch-form-contianer-div {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.get-in-touch-form {
+	width: 570px;
+	height: 270px;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+	grid-template-rows: auto auto auto auto; /* 2 rows */
+	column-gap: 30px;
+	row-gap: 10px;
+}
+
+.get-in-touch-case-name-input,
+.get-in-touch-full-name-input,
+.get-in-touch-email-input,
+.get-in-touch-phone-input,
+.get-in-touch-address-input {
+	font-family: "Montserrat", sans-serif;
+	height: 42px;
+	padding-left: 20px;
+	background-color: rgba(255, 255, 255, 0.02);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+
+	display: flex;
+	align-items: center;
+
+	color: white;
+}
+
+.get-in-touch-case-name-input {
+	grid-column: span 2;
+}
+
+.get-in-touch-full-name-input {
+}
+
+.get-in-touch-email-input {
+}
+
+.get-in-touch-phone-input {
+}
+
+.get-in-touch-address-input {
+}
+
+.get-in-touch-additional-message-textarea {
+	grid-column: span 2;
+
+	resize: none;
+	height: 88px;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.02);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+
+	font-family: "Montserrat", sans-serif;
+	line-height: 22px;
+}
+
+.get-in-touch-phone-description-p {
+	padding-top: 20px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	color: white;
+}
+
+.get-in-touch-red-star-span {
+	display: inline-flex;
+	align-items: center;
+
+	color: #b14233;
+	font-size: 20px;
+}
+
+.get-in-touch-submit-button {
+	margin-top: auto;
+}
+
+.get-in-touch-case-name-input::placeholder,
+.get-in-touch-full-name-input::placeholder,
+.get-in-touch-email-input::placeholder,
+.get-in-touch-phone-input::placeholder,
+.get-in-touch-address-input::placeholder,
+.get-in-touch-additional-message-textarea::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.get-in-touch-case-name-input:focus-visible,
+.get-in-touch-full-name-input:focus-visible,
+.get-in-touch-email-input:focus-visible,
+.get-in-touch-phone-input:focus-visible,
+.get-in-touch-address-input:focus-visible,
+.get-in-touch-additional-message-textarea:focus-visible {
+	outline: 1px solid rgba(255, 255, 255, 0.7);
+}
