@@ -1,0 +1,211 @@
+.footer-section {
+    height: 700px;
+    background-color: rgba(35, 38, 41, 1);
+
+    display: flex;
+}
+
+.footer-section * {
+    color: var(--white-text-color);
+}
+
+.footer-grid-div {
+    margin: 110px 320px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 100px;
+    row-gap: 30px;
+
+}
+
+.footer-info-div {}
+
+.footer-info-div {
+    width: 370px;
+
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-info-div-info-p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.footer-info-div-address-p {
+    font-family: "Cormorant", sans-serif;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.footer-info-div-copy-p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.footer-info-div-copy-p-green-span {
+    filter: brightness(120%);
+    color: var(--green-text-color);
+}
+
+.footer-links-div {}
+
+.footer-links-div-explore-h3 {
+    padding-bottom: 10px;
+
+    color: white;
+    font-family: "Cormorant", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.footer-links-div-links-grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.footer-links-div-links-grid-div>a {
+    white-space: nowrap;
+
+    padding: 5px 5px 5px 0px;
+    justify-self: start;
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+
+    transition: color 200ms;
+}
+
+.footer-links-div-links-grid-div>a:hover {
+    filter: brightness(120%);
+    color: var(--green-text-color);
+
+    transition: color 200ms;
+}
+
+.footer-blogs-div {
+    grid-row: span 2;
+}
+
+.footer-blogs-div> :nth-child(2),
+.footer-blogs-div> :nth-child(4) {
+    border-bottom: 1px solid gray;
+}
+
+
+.footer-blogs-div-latest-h3 {
+    padding-bottom: 10px;
+
+    color: white;
+    font-family: "Cormorant", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.footer-blogs-div-blog-div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-blogs-div-blog-div-image-div {
+    width: 82px;
+    height: 82px;
+    background-image: url("../../../static/images/news-placeholder.png");
+    border-radius: 41px;
+}
+
+.footer-blogs-div-blog-div-text-div {
+    line-height: 30px;
+    width: 210px;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.footer-blogs-div-blog-div-text-div-title-div {
+    font-family: "Cormorant", sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.footer-blogs-div-blog-div-text-div-read-more-div {
+    padding: 5px 5px 5px 5px;
+    margin-left: -5px;
+
+    font-family: "Cormorant", sans-serif;
+    line-height: 20px;
+    font-size: 18px;
+
+    align-self: flex-start;
+
+    transition: color 200ms;
+}
+
+.footer-blogs-div-blog-div-text-div-read-more-div:hover {
+    filter: brightness(120%);
+    color: var(--green-text-color);
+    transition: all 200ms;
+}
+
+.footer-newsletter-div {
+    height: 115px;
+
+    grid-column: span 2;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-newletter-div-looking-for-h2 {
+    font-family: "Cormorant", sans-serif;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.footer-newletter-div-looking-for-h2>span {
+    filter: brightness(120%);
+    color: var(--green-text-color);
+}
+
+.footer-newsletter-div-container-div {
+    flex-grow: 1;
+
+    background-color: rgba(39, 43, 46, 1);
+    border: solid 1px rgba(255, 255, 255, 0.03);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-newsletter-div-input-div {
+    flex-grow: 1;
+
+    margin-left: 20px;
+    padding: 10px;
+
+    border: none;
+    background: none;
+}
+
+.footer-newsletter-div-input-div:focus-visible {
+    outline: 0px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.footer-newsletter-div-submit-button {}

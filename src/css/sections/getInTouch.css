@@ -85,8 +85,10 @@
 	height: 270px;
 
 	display: grid;
-	grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
-	grid-template-rows: auto auto auto auto; /* 2 rows */
+	grid-template-columns: repeat(2, 1fr);
+	/* 4 columns with equal width */
+	grid-template-rows: auto auto auto auto;
+	/* 2 rows */
 	column-gap: 30px;
 	row-gap: 10px;
 }
@@ -112,17 +114,13 @@
 	grid-column: span 2;
 }
 
-.get-in-touch-full-name-input {
-}
+.get-in-touch-full-name-input {}
 
-.get-in-touch-email-input {
-}
+.get-in-touch-email-input {}
 
-.get-in-touch-phone-input {
-}
+.get-in-touch-phone-input {}
 
-.get-in-touch-address-input {
-}
+.get-in-touch-address-input {}
 
 .get-in-touch-additional-message-textarea {
 	grid-column: span 2;

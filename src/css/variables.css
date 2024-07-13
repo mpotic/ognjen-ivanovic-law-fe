@@ -6,6 +6,8 @@
 
 	--navbar-pocetna-color: #b14233;
 	--text-color: #272b2e;
+	--white-text-color: rgba(255, 255, 255, 0.7);
+	--green-text-color: rgba(22, 81, 83, 1);
 
 	--font-family: var(--font-family);
 }
