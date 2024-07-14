@@ -87,8 +87,9 @@
 .footer-links-div-links-grid-div>a:hover {
     filter: brightness(120%);
     color: var(--green-text-color);
-
     transition: color 200ms;
+
+    cursor: pointer;
 }
 
 .footer-blogs-div {
@@ -103,7 +104,6 @@
 
 .footer-blogs-div-latest-h3 {
     padding-bottom: 10px;
-
     color: white;
     font-family: "Cormorant", sans-serif;
     font-size: 18px;
@@ -156,6 +156,8 @@
     filter: brightness(120%);
     color: var(--green-text-color);
     transition: all 200ms;
+
+    cursor: pointer;
 }
 
 .footer-newsletter-div {
